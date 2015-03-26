@@ -16,7 +16,7 @@ public class SampleClass {
 
     static String aDays[] = {"MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"};
     private String day;
-
+    
     public String getDay() {
         return day;
     }
@@ -44,6 +44,7 @@ public class SampleClass {
             if (aDays[i].equalsIgnoreCase(pDay)) {
                 int count = i - 1;
                 if (count == -1) {
+                    System.out.println("");
                     System.out.println("The Previous Day is: " + aDays[aDays.length - 1]);
                 } else {
                     System.out.println("The Previous Day is: " + aDays[count]);
