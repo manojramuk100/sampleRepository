@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
  * @author miracle
  */
 public class SampleClass {
-
+//declare adays
     static String aDays[] = {"MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"};
     private String day;
     
